@@ -8,8 +8,6 @@ int snakeWaterGun(char you, char comp){
 	if(you==comp)	return 0;
 	
 	//non-draw conditions
-	//if(you=='s' && com=='w')	return 1;
-	//else if(you=='w' && com=='s')	return -1;
 	if(you=='s' && comp=='g'){
 		return -1;
 	}	
